@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>      
+<h1>Tablas</h1>
+ <!-- Las tablas se definen con la etiqueta Table y dentro de ella agregamos las filas TR y en cada 
+ fila agregamos la columna TD -->
+<hr>
+<h2>Tabla simple</h2>
+<!-- Para agregar bordes ala tabla utilizamos el atributo 
+boder="" -->
+<table border="1">
+    <tr>
+        <td>codigo</td>
+        <td>nombres y apellidos</td>
+        <td>DNI</td>
+        <td>direccion</td>
+        <td>distrito</td>
+        <td>telefono</td>
+        <td>celular</td>
+        <td>correo</td>
+        <td>sexo</td>
+        <td>estado</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Juan Pablo Quispe Cutipa</td>
+        <td>73318118</td>
+        <td>ASOC.CRUCE LA JOYA LOS ROSALES Zn.A Mz.LL Lt. T</td>
+        <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+        <td>64446873</td>
+        <td>957208321</td>
+        <td>jquispecutipa22@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jaime Jesus Cutipa Mamani</td>
+        <td>75605160</td>
+        <td>orquideas Mz. ll. lote 11</td>
+        <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+        <td>64446873</td>
+        <td>986157844</td>
+        <td>carlosmamanimamani15@.gmail</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Ricardo Cutipa Mamani</td>
+        <td>48483116</td>
+        <td>P.j el triunfo Zn.b Mz.O Lt.1</td>
+        <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+        <td>970385773</td>
+        <td>970385773</td>
+        <td>ricardocutipamamani@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mario Cutipa Mamani</td>
+        <td>45805425</td>
+        <td>P.j el triunfo Zn.b Mz.O Lt.1</td>
+        <td>La JOYA</td>
+        <td>941186993</td>
+        <td>941186993</td>
+        <td>mario.mcm.89@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mario Antonio Huapalla Morales</td>
+        <td>41311544</td>
+        <td>Av. Luis Braille 1490</td>
+        <td>Cercado de Lima</td>
+        <td>2469875</td>
+        <td>963852741</td>
+        <td>mario.huapalla@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+</table>
+<h2>tabla con cabecera</h2>
+<!-- para difereciar la columna normal de un cabecera
+cambiamos el TD por el TH -->
+<table border="1">
+    <tr>
+        <th>codigo</th>
+        <th>nombres y apellidos</th>
+        <th>DNI</th>
+        <th>direccion</th>
+        <th>distrito</th>
+        <th>telefono</th>
+        <th>celular</th>
+        <th>correo</th>
+        <th>sexo</th>
+        <th>estado</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>Juan Pablo Quispe Cutipa</th>
+        <th>73318118</th>
+        <th>ASOC.CRUCE LA JOYA LOS ROSALES Zn.A Mz.LL Lt. T</th>
+        <th>AREQUIPA/AREQUIPA/LA JOYA</th>
+        <th>64446873</th>
+        <th>957208321</th>
+        <th>jquispecutipa22@gmail.com</th>
+        <th>Masculino</th>
+        <th>Habilitado</th>
+    </tr>
+    <tr>
+        <th>2</th>
+        <th>Jaime Jesus Cutipa Mamani</th>
+        <th>75605160</th>
+        <th>orquideas Mz. ll. lote 11</th>
+        <th>AREQUIPA/AREQUIPA/LA JOYA</th>
+        <th>64446873</th>
+        <th>986157844</th>
+        <th>carlosmamanimamani15@.gmail</th>
+        <th>Masculino</th>
+        <th>Habilitado</th>
+    </tr>
+    <tr>
+        <th>3</th>
+        <th>Ricardo Cutipa Mamani</th>
+        <th>48483116</th>
+        <th>P.j el triunfo Zn.b Mz.O Lt.1</th>
+        <th>AREQUIPA/AREQUIPA/LA JOYA</th>
+        <th>970385773</th>
+        <th>970385773</th>
+        <th>ricardocutipamamani@gmail.com</th>
+        <th>Masculino</th>
+        <th>Habilitado</th>
+    </tr>
+    <tr>
+        <th>4</th>
+        <th>Mario Cutipa Mamani</th>
+        <th>45805425</th>
+        <th>P.j el triunfo Zn.b Mz.O Lt.1</th>
+        <th>La JOYA</th>
+        <th>941186993</th>
+        <th>941186993</th>
+        <th>mario.mcm.89@gmail.com</th>
+        <th>Masculino</th>
+        <th>Habilitado</th>
+    </tr>
+    <tr>
+        <th>5</th>
+        <th>Mario Antonio Huapalla Morales</th>
+        <th>41311544</th>
+        <th>Av. Luis Braille 1490</th>
+        <th>Cercado de Lima</th>
+        <th>2469875</th>
+        <th>963852741</th>
+        <th>mario.huapalla@gmail.com</td>
+        <th>Masculino</th>
+        <th>Habilitado</th>
+    </tr>
+</table>
+<h2>tabla html 5</h2>
+<!-- La tabla en HTML5 tiene 3 componentes THEAD para la cabecera
+el TFOOT para el pie de pagina y el TBODY para el cuerpo
+de la tabla -->
+<table border="1">
+    <thead>
+        <tr>
+            <td>codigo</td>
+            <td>nombres y apellidos</td>
+            <td>DNI</td>
+            <td>direccion</td>
+            <td>distrito</td>
+            <td>telefono</td>
+            <td>celular</td>
+            <td>correo</td>
+            <td>sexo</td>
+            <td>estado</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="10"><p>es el pie de pagina</p></td>
+            </tr>
+        
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>codigo</td>
+            <td>nombres y apellidos</td>
+            <td>DNI</td>
+            <td>direccion</td>
+            <td>distrito</td>
+            <td>telefono</td>
+            <td>celular</td>
+            <td>correo</td>
+            <td>sexo</td>
+            <td>estado</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Juan Pablo Quispe Cutipa</td>
+            <td>73318118</td>
+            <td>ASOC.CRUCE LA JOYA LOS ROSALES Zn.A Mz.LL Lt. T</td>
+            <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+            <td>64446873</td>
+            <td>957208321</td>
+            <td>jquispecutipa22@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jaime Jesus Cutipa Mamani</td>
+            <td>75605160</td>
+            <td>orquideas Mz. ll. lote 11</td>
+            <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+            <td>64446873</td>
+            <td>986157844</td>
+            <td>carlosmamanimamani15@.gmail</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ricardo Cutipa Mamani</td>
+            <td>48483116</td>
+            <td>P.j el triunfo Zn.b Mz.O Lt.1</td>
+            <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+            <td>970385773</td>
+            <td>970385773</td>
+            <td>ricardocutipamamani@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mario Cutipa Mamani</td>
+            <td>45805425</td>
+            <td>P.j el triunfo Zn.b Mz.O Lt.1</td>
+            <td>La JOYA</td>
+            <td>941186993</td>
+            <td>941186993</td>
+            <td>mario.mcm.89@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Mario Antonio Huapalla Morales</td>
+            <td>41311544</td>
+            <td>Av. Luis Braille 1490</td>
+            <td>Cercado de Lima</td>
+            <td>2469875</td>
+            <td>963852741</td>
+            <td>mario.huapalla@gmail.com</td>
+            <td>Masculino</td>
+            <td>Habilitado</td>
+        </tr>
+    </tbody>
+    <tr>
+        <td>codigo</td>
+        <td>nombres y apellidos</td>
+        <td>DNI</td>
+        <td>direccion</td>
+        <td>distrito</td>
+        <td>telefono</td>
+        <td>celular</td>
+        <td>correo</td>
+        <td>sexo</td>
+        <td>estado</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Juan Pablo Quispe Cutipa</td>
+        <td>73318118</td>
+        <td>ASOC.CRUCE LA JOYA LOS ROSALES Zn.A Mz.LL Lt. T</td>
+        <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+        <td>64446873</td>
+        <td>957208321</td>
+        <td>jquispecutipa22@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jaime Jesus Cutipa Mamani</td>
+        <td>75605160</td>
+        <td>orquideas Mz. ll. lote 11</td>
+        <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+        <td>64446873</td>
+        <td>986157844</td>
+        <td>carlosmamanimamani15@.gmail</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Ricardo Cutipa Mamani</td>
+        <td>48483116</td>
+        <td>P.j el triunfo Zn.b Mz.O Lt.1</td>
+        <td>AREQUIPA/AREQUIPA/LA JOYA</td>
+        <td>970385773</td>
+        <td>970385773</td>
+        <td>ricardocutipamamani@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mario Cutipa Mamani</td>
+        <td>45805425</td>
+        <td>P.j el triunfo Zn.b Mz.O Lt.1</td>
+        <td>La JOYA</td>
+        <td>941186993</td>
+        <td>941186993</td>
+        <td>mario.mcm.89@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mario Antonio Huapalla Morales</td>
+        <td>41311544</td>
+        <td>Av. Luis Braille 1490</td>
+        <td>Cercado de Lima</td>
+        <td>2469875</td>
+        <td>963852741</td>
+        <td>mario.huapalla@gmail.com</td>
+        <td>Masculino</td>
+        <td>Habilitado</td>
+    </tr>
+</table>
+<h2>combinacion de celdas</h2>
+<!-- Para poder unir dos celdas sea de forma vertical 
+combinando filas  o de forma horizontal combinando 
+columnas se debe de tener en cuenta la cantidad de 
+celdas que se ban a poner -->
+<h3>tabla normal</h3>
+<table border="1" cellspacing="25" cellpadding="15">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+    </tr>
+</table>
+<h3>Combinando columnas</h3>
+<table border="1" cellspacing="25" cellpadding="15">
+    <tr>
+        <td colspan="3">1,2,3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td colspan="4">8,9,10,11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td colspan="2">17,18</td>
+    </tr>
+    <tr>
+        <td colspan="6">19,20,21,22,23,24</td>
+    </tr>
+    <tr>
+        <td colspan="2">25,26</td>
+        <td>27</td>
+        <td>28</td>
+        <td colspan="2">29,30</td>
+    </tr>
+    <tr>
+        <td colspan="2">31,32</td>
+        <td>33</td>
+        <td colspan="3">34,35,36</td>
+       
+    </tr>
+</table>
+<h3>combinando filas </h3>
+<table border="1" cellspacing="25" cellpadding="15">
+    <tr>
+        <td rowspan="2">1 y 7</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td rowspan="6">6,12,18,24,30,36</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="4">9,15,21,27</td>
+        <td>10</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td rowspan="3">14,20,26</td>
+        <td>16</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>22</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>28</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+    </tr>
+</table>
+<p>
+    <a href="index.html">Regresar</a>
+   </p>
+</body>
+</html>

@@ -1,0 +1,189 @@
+/*agregamos borde tipo detted*/
+.borde1{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: dotted;
+}
+/*agregamos el tipo de dashed*/
+.borde2{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: dashed;
+}
+/*agregamos el tipo de solid*/
+.borde3{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: solid;
+}
+/*agregamos el tipo de double*/
+.borde4{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: double;
+}
+/*agregamos el tipo de Groove*/
+.borde5{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: Groove;
+}
+/*agregamos el tipo de Ridge*/
+.borde6{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: Ridge;
+}
+/*agregamos el tipo de inset*/
+.borde7{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: inset;
+}
+/*agregamos el tipo de outset*/
+.borde8{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: outset;
+}
+/*agregamos el tipo de none*/
+.borde9{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: none;
+}
+/*agregamos el tipo de hidden*/
+.borde10{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: hidden;
+}    
+/*para combinar valores la sintaxis es:
+2 valoes: (arriba y abajo) (izquierda y derecha)
+3 valores: (arriba) (izquierda y derecha) (abajo)
+4 valores: (arriba) (derecha) (abajo) (izquierda)
+/* combinamos dos estilos*/
+.borde11{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: dotted groove;
+}
+/*combinamos tres estilos*/
+.borde12{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: dotted solid groove;
+}
+/*combinamos cuatro estilos*/
+.borde13{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style: dotted solid dashed groove;
+}
+/*agregamos borde arriba*/
+.borde14{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-top-style:  solid  ;
+}
+/*agregamos borde abajo*/
+.borde15{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-bottom-style:  solid  ;
+}
+/*agregamos borde izquierda*/
+.borde16{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-left-style:  solid  ;
+}
+/*agregamos borde derecha*/
+.borde17{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-right-style:  solid  ;
+}
+.borde18{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style:  solid  ;
+border-color: blueviolet;
+}
+.borde19{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style:  solid  ;
+border-color: blueviolet yellowgreen;
+}
+.borde20{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style:  solid  ; 
+border-color: blueviolet yellowgreen orange;
+}
+/*4 colores*/
+.borde21{
+width: 800px;
+height: 200px;
+background-color: beige;
+border-style:  solid  ;
+border-color: blueviolet yellowgreen orange green;
+}
+/*1 valor*/
+.borde22{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style:  solid  ;
+    border-color: red;
+    border-width: 15px;
+}
+/*1 tipo*/
+.borde23{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style:  solid  ;
+    border-color: red;
+    border-width: medium;
+}
+/*ancho 4 valores*/
+.borde24{
+    width: 800px;
+    height: 200px;
+    background-color: beige;
+    border-style:  solid  ;
+    border-color: red green yellow orange;
+    border-width: 5px 10px 15px 30px;
+}
+    .borde25{
+        width: 800px;
+        height: 200px;
+        background-color: beige;
+        border-style:  solid  ;
+        border-color: red green yellow orange;
+        border-width: 5px 10px 15px 30px;
+        border-radius: ;
+}
+       

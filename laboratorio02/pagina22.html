@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando con formularios</title>
+</head>
+<body>
+ <h1>Formulario de regristro de alumno</h1>
+ <form action="pagina23.html" method="get">
+ <fieldset>
+    <legend>Datos Personales</legend>
+    <label for="TxtDni">Numero de Documento:</label> <input type="text" name="TxtDni" id="TxtDni" placeholder="Ingrese su DNI" required> <br>
+    <label for="TxtDni">Nombres:</label> <input type="text" name="TxtNom" id="TxtNom" placeholder="Ingrese su Nombre" required> <br>
+    <label for="TxtApe">Apellido:</label> <input type="text" name="TxtApe" id="TxtApe" placeholder="Ingrese su Apellido" required> <br>
+    <label for="TxtFec">Fecha de Nacimiento:</label> <input type="date" name="TxtFec" id="TxtFec" required> <br>
+    <label for="TxtDir">Direccion:</label> <input type="text" name="TxtDir" id="TxtDir" placeholder="Ingrese su direccion" required> <br>
+    <label for="cbodistrito"></label>
+    <select name="cbodistrito" id="cbodistrito" required>
+        <option value="0">Seleccione un distrito</option>
+        <option value="1">Cercado de lima</option>
+        <option value="2">Breña</option>
+        <option value="3">San Juan de Lurigancho</option>
+        <option value="4">Jesus Maria</option>
+        <option value="5">La Molina</option>
+    </select> <br>
+    <label>Sexo:</label> <input type="radio" name="sexo" id="rbm"> <label for="rbm">Masculino</label> <input type="radio" name="sexo" id="rbf"> <label for="rbf">Femenino</label> <br>
+     <label for="fulfolo">Fotografia:</label> <input type="file" name="fulfoto" id="fulfoto"> <br>     
+     <label for="tatObservaciones">Observaciones</label> <textarea name="tatObservaciones" id="" cols="30" rows="10"></textarea> <br>
+     <label>Estado:</label> <input type="checkbox" name="chkEst" id="chkEst"> <label for="chkEst">Habilitado</label> <br>
+    </fieldset>
+    <fieldset>
+    <legend>Datos del Curso</legend>
+    <label for="cboCiclo">Ciclo:</label>
+    <select name="cboCiclo" id="cboCiclo" required>
+        <option value="0">Seleccione un Ciclo</option>
+        <option value="1">I Ciclo</option>
+        <option value="2">II Ciclo</option>
+        <option value="3">III Ciclo</option>
+        <option value="4">IV Ciclo</option>
+        <option value="5">V Ciclo</option>        
+        <option value="6">VI Ciclo</option>
+    </select><br>
+    <label>Turno:</label> <input type="radio" name="Turno" id="rbm"><label for="rbm">Mañana</label> <input type="radio" name="Turno" id="rbt"> <label for="rbt">Tarde</label><input type="radio" name="Turno" id="rbn"> <label for="rbn">Noche</label> <br>
+    <label for="cboseccion">Seccion:</label>
+    <select name="cboseccion" id="cboseccion" required>
+        <option value="0">Seleccione una Opcion</option>
+        <option value="1">A</option>
+        <option value="2">B</option>
+        <option value="3">C</option>
+        <option value="4">D</option>
+        <option value="5">E</option>
+        <option value="6">F</option>
+        <option value="7">G</option>
+    </select> <br>
+</fieldset>
+<input type="submit" name="btnregistrar" id="btnregistrar" value="Regristrar">  
+<button type="button" name="btnActualizar" id="btnActualizar">Actualizar</button>
+<button type="reset" name="btnEliminar" id="btnEliminar">Eliminar</button>
+
+ </form>
+
+</body>
+</html>

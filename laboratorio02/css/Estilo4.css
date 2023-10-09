@@ -1,0 +1,20 @@
+llamamos a las clases creadas   en el html utilizan #
+#titulo{
+    background-color: antiquewhite;
+    color: aqua;
+}
+#barra{
+    background-color: azure;
+}
+#subtitulo{
+    background-color: aquamarine;
+    color: beige;
+}
+#parrafo{
+    background-color: black;
+    color: blue;
+}
+#caja1{
+    background-color: brown;
+    color: blanchedalmond;
+}

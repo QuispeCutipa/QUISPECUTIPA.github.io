@@ -1,0 +1,130 @@
+body{
+background-color: darkblue;
+}
+/* maquetacuon */
+/* Estilos para del contenedor */
+.contenedor{
+    width: 1366px;
+    height: 768px;
+    background-color: black;
+}
+header{ 
+    width: 1366px;
+    height: 270px;
+    
+    background-size: contain;
+
+    
+
+}
+nav{ 
+    width: 200px;
+    height: 453px;
+    background-color: yellow;
+}
+main{ 
+    width: 951px;
+    height: 453px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: -453px;
+   
+}
+main h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+section{   
+    width: 215px;
+    height: 453px;
+    background-color: #1BDAF1;
+    margin-left: 1151px;
+    margin-top: -453px;
+}
+.anuncio1{
+    width: 215px;
+    height: 151px;
+    background-color: #9A2FAE;
+} 
+.anuncio2{
+    width: 215px;
+    height: 151px;
+    background-color: #999999;
+}
+.anuncio3{
+    width: 215px;
+    height: 151px;
+    background-color: #A1EB47;
+}
+.anuncio3{
+    width: 215px;
+    height: 151px;
+    background-color: #A1EB47;
+}
+footer{
+    width: 1366px;
+    height: 45px;
+    background-color: #434343;
+}
+/* Generamos el menu principal */
+ul{
+   /* para que se quite la viñeta */
+   list-style: none;
+   /* asignamos un margen 0 */
+   margin: 0;
+   /* asignamos espaciado */
+   padding: 0;
+   /* asignamos el ancho de menu */
+   width: 200px;
+   /* asignamos un color de fondo */
+   background-color: black;
+   /* asignamos un borde */
+   border: 1px solid white;
+}
+li a{
+/* que se vean bloques */
+display: block;
+color: white;
+padding: 8px 16px;
+text-decoration: none;
+}
+li{
+/* centramos el texto  */
+text-align: center;
+border-bottom: 1px solid white;
+}
+/* quitamos el ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+/* le asignamos valores cuando esta activado */
+li a.active{
+    background-color: red;
+    color: #999999;
+}
+/* le asignamos un color de fondo y letra cuando seleccionamos  */
+li a:hover{
+    background-color: darkblue;
+    color: #b1f812;
+}
+.empresa1{
+    width: 100%;
+    height: 100%;
+}
+.anuncio1 img{
+    width: 100%;
+    height: 100%;
+}
+.anuncio2 img{
+    width: 100%;
+    height: 100%;
+}
+.anuncio3 img{
+    width: 100%;
+    height: 100%;
+}
+.barra1{
+    width: 100%;
+    height: 40%;
+}

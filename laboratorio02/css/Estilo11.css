@@ -1,0 +1,82 @@
+/* Importando la letra desde gogle */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    padding: 10px;
+}
+
+/* cambiamos el tipo de fuente  */
+.fuente1{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.fuente2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* Agregamos estilo de parrafo */
+/* cursiva */
+.fuente3{
+    font-style: italic;
+}
+ /* oblicuo    */
+ .fuente4{
+    font-style: oblique;
+ }
+ /* normal */
+ .fuente5{
+    font-style: normal;
+ }
+ /* negrita */
+.fuente6{
+    font-weight: bold;
+}
+/* mas negrita */
+.fuente7{
+    font-weight: bolder;
+}
+/* smallcaps */
+.fuente8{
+    font-variant: small-caps;
+}
+/* fuente normal */
+.fuente9{
+    font-variant: normal;
+}
+/* tamaño de fuente */
+.fuente10{
+    font-size: 30px;
+}
+/* llamando a las letras descargadas de internet  */
+@font-face{
+    font-family: "pixelifysans";
+    src: url("/fonts/PixelifySans-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: "YoungSerif";
+    src: url("/fonts/YoungSerif-Regular.ttf")
+}
+@font-face{
+    font-family: "left_hand_luke/lefthandluke3d";
+    src: url("/fonts/left_hand_luke/lefthandluke3d.ttf");
+}
+@font-face{
+    font-family: "iamrock/IAmaRock_Free_For_Personal" ;
+    src: url("/fonts/iamrock/IAmaRock_Free_For_Personal_Use_Only.ttf");
+}
+/* llamando a las letras importadas desde internet y las descargadas  */
+/* importadas desde internet */
+.fuente11{
+font-family: 'Dela Gothic One';
+}
+/* fuente descargadada */
+.fuente12{
+ font-family: "pixelifysans";
+}
+.fuente13{
+    font-family: "YoungSerif" ;
+   }
+   .fuente14{
+    font-family: "left_hand_luke/lefthandluke3d" ;
+   }
+   .fuente15{
+    font-family:  "iamrock/IAmaRock_Free_For_Personal";
+   }

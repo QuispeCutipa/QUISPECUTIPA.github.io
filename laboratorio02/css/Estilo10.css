@@ -1,0 +1,97 @@
+/*Color a la Letra*/
+.parrafo1{
+    color: blueviolet;
+} 
+/*Alinear a la Izquierda*/
+.parrafo2{
+    text-align: left;
+}
+/*Alinear a la derecha*/
+.parrafo3{
+    text-align: right;
+} 
+/*Alinear a la Justificado*/
+.parrafo4{
+    text-align: justify;
+} 
+/*Alinear a la Superior*/
+.parrafo5{
+    vertical-align: top;
+}
+/*Alinear Superior*/
+.parrafo5{
+    vertical-align: top;
+    padding: 15px;
+    border-style: solid;
+}
+/*Alinear Medio*/
+.parrafo6{
+    vertical-align: middle;
+    padding: 15px;
+    border-style: solid;
+}
+/*Alinear inferior*/
+.parrafo7{
+    vertical-align: bottom;
+    padding: 15px;
+    border-style: solid;
+}
+/*Afregamos decoraciones*/
+/*Sobrelinea*/
+.parrafo8{
+    text-decoration: overline;
+}
+/*Subrayado*/
+.parrafo9{
+    text-decoration: underline;
+}
+/*Tachado*/
+.parrafo10{
+    text-decoration: line-through;
+}    
+/* Mayuscula */
+.parrafo11{
+    text-transform: uppercase;
+}   
+/* Minuscula */
+.parrafo12{
+    text-transform: lowercase;
+} 
+/* Nombre Propio */
+.parrafo13{
+    text-transform: capitalize;
+}
+/* Agregamos Espaciado al texto */
+/* sangria */
+.parrafo14{
+    text-indent: 80px;
+}  
+/*Espaciado */
+.parrafo15{
+    letter-spacing: 10px;
+}
+/*Comprimido     */
+.parrafo16{
+    letter-spacing: -2px;
+} 
+/*Epaciado en linea */
+.parrafo17{
+    letter-spacing: 5px;
+}
+/*Epaciado amplio */
+.parrafo18{
+    line-height: 15px;
+}
+/*Espaciado de Palabra */
+.parrafo19{
+    word-spacing: 5px;
+}
+/* efectos de textos   */
+/* sombra */
+.parrafo20{
+    text-shadow: 2px 3px orange; 
+}
+/* difuminado */
+.parrafo21{
+    text-shadow: 2px 3px 5px red; 
+}

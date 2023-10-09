@@ -1,0 +1,93 @@
+/*agregamos color de fondo */
+.caja1{
+    background-color: aqua;
+}
+
+/*agregamos imgaen de fondo*/
+.caja2{
+    background-image:url("/img/imagenes/Bermuda\ hombre\ miguel\ Azul\ Nautico.webp");
+}
+/*agregamos un fondo con transparencia*/
+.caja3{
+    background-color: blue;
+    opacity: 45%;
+    color: aliceblue;
+}
+/*damos una imagen de fondo con transparencia */
+.caja4{
+    background-image:url("/img/imagenes/Bermuda\ hombre\ miguel\ verde\ errante.webp") ;
+    opacity: 15%;
+}
+/*damos una imagen de fondo que no se repita */
+.caja5{
+background-image:url("/img/imagenes/Bermuda\ hombre\ miguel\ negro\ jazpeado.webp") ;
+background-repeat: no-repeat;
+}
+/*damos imagen de fondo que no se repita de 
+formma horizontal*/
+.caja6{
+
+}
+/*imagen centrada en el parrafo*/
+.parrafoimgcentrar{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimgizquierda{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimgderecha{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimgsuperior{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimginferior{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimgsuperiorizq{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimgsuperiorder{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimginferiorizq{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position:  left;
+    background-repeat: no-repeat;
+}
+/*imagen centrada en el parrafo*/
+.parrafoimginferiorder{
+    background-image: url("/img/imagenes/html.jpg") ;
+    background-size: 60px;
+    background-position:  right;
+    background-repeat: no-repeat;
+}

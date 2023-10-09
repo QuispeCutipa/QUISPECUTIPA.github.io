@@ -1,0 +1,50 @@
+/* Para los vinculos existen 4 estados que se manejan link */ 
+/*link - estado normal */
+/* visited cuand diste click */
+/* hover cuando estes sobre el link */
+/* active cuando esteb activo */
+.vinculo1:link{
+    color: chartreuse;
+}   
+.vinculo1:visited{
+    color: aqua;
+}
+.vinculo1:hover{
+    color: cyan;
+}  
+.vinculo1:active{
+    color: darkslategray;
+} 
+.vinculo2:link{
+    text-decoration: none;
+}   
+.vinculo2:visited{
+    text-decoration: none;
+}  
+.vinculo2:hover{
+    text-decoration: none;;
+}  
+.vinculo2:active{
+    color: darkslategray;
+}  
+.vinculo3:link,.vinculo3:visited{
+background-color: green;
+color: white;
+padding: 12px;
+text-align: center;
+text-decoration: none;
+}
+.vinculo3:hover, .vinculo3:active{
+    background-color: red;
+}
+.vinculo4:link,.vinculo4:visited{
+    background-color: royalblue;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+    .vinculo4:hover, .vinculo4:active{
+        background-color: black;
+    }
